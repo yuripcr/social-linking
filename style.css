@@ -5,16 +5,6 @@
 }
 
 :root {
-    --text-color: white;
-    --bg-url: url(./assets/bg-mobile.jpg);
-    --border-color: rgba(255, 255, 255, 0.50);
-    --bg-box-color: rgba(255, 255, 255, 0.10);
-    --bg-hover-color: rgba(255, 255, 255, 0.05);
-    --social-links-hover: rgba(255, 255, 255, 0.2);
-    --switch-bg: url(./assets/moon-stars.svg);
-}
-
-.light {
     --text-color: black;
     --bg-url: url(./assets/bg-mobile-light.png);
     --border-color: rgba(0, 0, 0, 0.50);
@@ -22,6 +12,16 @@
     --bg-hover-color: rgba(0, 0, 0, 0.02);
     --social-links-hover: rgba(0, 0, 0, 0.1);
     --switch-bg: url(./assets/sun.svg);
+}
+
+.dark {
+    --text-color: white;
+    --bg-url: url(./assets/bg-mobile.jpg);
+    --border-color: rgba(255, 255, 255, 0.50);
+    --bg-box-color: rgba(255, 255, 255, 0.10);
+    --bg-hover-color: rgba(255, 255, 255, 0.05);
+    --social-links-hover: rgba(255, 255, 255, 0.2);
+    --switch-bg: url(./assets/moon-stars.svg);
 }
 
 body {
@@ -70,14 +70,14 @@ body * {
     border-radius: 50%;
     position: absolute;
     z-index: 1;
-    left: 0;
+    right: 0;
     transform: translateY(-50%);
     top: 50%;
 }
 
-.light #switch button {
-    left: initial;
-    right: 0;
+.dark #switch button {
+    left: 0;
+    right: initial;
 }
 
 #switch span {

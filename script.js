@@ -8,13 +8,13 @@ function toggleMode(){
         body.classList.remove('dark');
         body.classList.add('light');
     } */
-    body.classList.toggle('light');
+    body.classList.toggle('dark');
 
     //substituir a imagem
 
-    if (body.classList.contains('light')){
-        img.src = "assets/AvatarLight.png"
-    } else {
+    if (body.classList.contains('dark')){
         img.src = "assets/Avatar.png"
+    } else {
+        img.src = "assets/AvatarLight.png"
     }
 }
