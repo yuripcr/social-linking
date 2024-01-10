@@ -26,6 +26,3 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Social Linking é um agregador de links para usar como cartão de visita. 
 Desenvolvido no curso de HTML, CSS e Javascript da Rocketseat.
-=======
-Projeto de um social linking usando HTML, CSS e Javascript
->>>>>>> 565ad3b15003a0cae8f7c9413a5558fae1709205
